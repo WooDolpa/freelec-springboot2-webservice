@@ -1,7 +1,7 @@
 package com.jojoldu.book.springboot.web;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * packageName : com.jojoldu.book.springboot.web
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * user : jwlee
  * date : 2022/08/22
  */
-@RestController
+@Controller
 public class IndexController {
 
     /**
