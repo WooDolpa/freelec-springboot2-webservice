@@ -57,7 +57,6 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
          * 이후 네이버 등 다른 소셜 로그인도 해당 클래스 사용
          */
         OAuthAttributes attributes = OAuthAttributes.of(registrationId, userNameAttributeName, oAuth2User.getAttributes());
-
         User user = saveOrUpdate(attributes);
         /**
          * 세션에 사용자 정보를 저장하기 위한 Dto
