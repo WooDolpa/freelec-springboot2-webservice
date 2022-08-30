@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
  * date : 2022/08/17
  */
 
-@EnableJpaAuditing  // JPA Auditing 활성화
+//@EnableJpaAuditing  // JPA Auditing 활성화
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
