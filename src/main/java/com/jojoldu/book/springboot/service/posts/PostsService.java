@@ -50,6 +50,10 @@ public class PostsService {
                 .collect(Collectors.toList());
     }
 
+    /**
+     * 삭제
+     * @param id
+     */
     @Transactional
     public void delete (Long id) {
         Posts posts = postsRepository.findById(id)
